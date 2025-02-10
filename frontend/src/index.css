@@ -1,0 +1,109 @@
+/* Genel Ayarlar */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+/* Navbar */
+nav {
+  background-color: #fff;
+  border-bottom: 2px solid #ddd;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo {
+  width: 150px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #14097a;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #f0700e;
+}
+
+
+
+nav button {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #60a9f8;
+  color: #360585;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 10px;
+}
+
+nav button:hover {
+  background-color: #f38c07;
+  color:#14097a;
+}
+
+
+/* Genel */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+
+
+
+/* Footer */
+footer {
+  background-color: #f8f9fa;
+  border-top: 2px solid #ddd;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+footer .links {
+  margin: 10px 0;
+}
+
+footer .links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+footer .links a:hover {
+  color: #007bff;
+}
+
+footer p {
+  color: #666;
+  font-size: 14px;
+}

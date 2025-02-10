@@ -1,0 +1,13 @@
+# robots.txt dosyası
+
+# Wir erlauben allen Suchmaschinen, Ihre Site zu crawlen
+User-agent: *
+Disallow: /admin/
+Disallow: /login/
+
+# Einschränkung auf eine bestimmte Suchmaschine (z.B. Google)
+User-agent: Googlebot
+Disallow: /private/
+
+# Sitemap-URL
+Sitemap: https://www.mrt-fitness.com/sitemap.xml
